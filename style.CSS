@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #03360a;
-    --fundo-senha: #067e02;
-    --fundo-texto: #123504;
-    --borda: #62e60b;
+    --cor-de-fundo: #044209;
+    --fundo-senha: #3b640d;
+    --fundo-texto: #0e5207;
+    --borda: #067a06;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -104,6 +104,16 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
